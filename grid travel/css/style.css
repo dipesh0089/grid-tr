@@ -1,0 +1,356 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+
+body{font-family: sans-serif;}
+
+        .headerarea
+        {
+            height: 680px;
+            background: url(../image/bg.png);
+            background-size: 100% 100%;
+            /* background-size: cover; */
+            /* background-attachment: fixed; */
+            background-repeat: no-repeat;
+            border: 2px solid;
+            display: grid;
+            grid-template-rows: 0.5fr 1.5fr 8fr;
+        }
+        .bo
+        {
+            border: 1px solid red;
+        }
+        .headerarea .header-top
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .headerarea .header-left
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+
+
+
+
+
+        /* goveyoud start */
+
+        .go
+        {
+            height: 380px;
+            background: rosybrown;
+            border: 2px solid;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+        .go .beyound
+        {
+            padding: 90px 40px;
+            
+        }
+        .pd
+        {
+            padding: 10px 0;
+        }
+        .beyound .line
+        {
+            height: 1px;
+            width: 140px;
+            background: blue;
+        }
+        
+        .go .airline
+        {
+            background: chocolate;
+            /* height: 340px;    */
+            /* width: 290px; */
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            /* scale: 1; */
+            z-index: 0;
+        }
+        .airline .airline1
+        {
+            height: 340px;
+            width: 290px;
+            background: rgba(0, 0, 0, 0.30);
+            position: absolute;
+            top: 340px;
+            left: 0;
+            /* border-radius: 10px; */
+            transition: 1s;
+        }
+        .image
+        {
+            scale: 1;
+            transition: 1s;
+
+        }
+        .airline:hover .airline1
+        {
+            top: 240px;
+            
+        }
+        .airline:hover .image
+        {
+            scale: 1.2;
+        }
+        .textinfo
+        {
+            height: 50px;
+            width: 160px;
+            position: absolute;
+            top: 270px;
+            left: 70px;
+            z-index: 1;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        
+        }
+        .airline:hover .textinfo
+        {
+            font-weight: bold;
+        }
+        
+
+        /* goveyoud end */
+
+        /* top destination start */
+
+        .topdestinationarea
+        {
+            height: 800px;
+            background: blue;
+            display: grid;
+            grid-template-rows: 1fr 1fr 8fr;
+            
+
+        }
+        .destination
+        {
+            /* padding: 20px 20px; */
+            text-align: center;
+        }
+        .line1
+        {
+            height: 1px;
+            width: 100px;
+        
+            border: 1px solid black;
+        }
+        .topdestinationarea .destination3
+        {
+            display: grid;
+            
+            grid-template-columns: 5.5fr 1.5fr 1.5fr 1.5fr;
+            gap: 20px;
+            padding: 20px;
+            
+            
+        }
+        .destination3 .uptp50
+        {
+            
+            border-radius: 10px;
+            background: white;
+            
+            /* width: 650px; */
+            
+            
+        }
+        .bigimage
+        {
+            /* height: 650px; */
+            scale: 1;
+            transition: 1.2s;
+            background: skyblue;
+        }
+        .uptp50:hover .image
+        {
+            scale: 1.2;
+        }
+
+
+            /*  image scale ma problem*/
+
+
+        .firstcol
+        {
+            display: grid;
+            grid-template-rows: 3fr 3fr 4fr;
+            gap: 20px;
+            
+        }
+        .bd
+        {
+            border: 2px solid;
+        }
+
+        .china
+        {
+        
+            border-radius: 10px;
+            background: yellow;
+            /* height: 165px; */
+            border: 2px solid;
+            
+        }
+        .darjiling
+        {
+        
+            border-radius: 10px;
+            background: yellow;
+            /* height: 165px; */
+            border: 2px solid;
+            
+        }
+        
+        .malaysia
+        {
+        
+            border-radius: 10px;
+            background: yellow;
+            /* height: 165px; */
+            border: 2px solid;
+            
+        }
+
+
+
+        .secondcol
+        {
+            display: grid;
+            grid-template-rows: 4fr 3fr 3fr;
+            gap: 20px;
+            
+        }
+        .bd
+        {
+            border: 2px solid;
+        }
+
+        .gangtok
+        {
+        
+            border-radius: 10px;
+            background: yellow;
+            /* height: 165px; */
+            border: 2px solid;
+            
+        }
+        .thailand
+        {
+        
+            border-radius: 10px;
+            background: yellow;
+            /* height: 165px; */
+            border: 2px solid;
+            
+        }
+        
+        .australia
+        {
+        
+            border-radius: 10px;
+            background: yellow;
+            /* height: 165px; */
+            border: 2px solid;
+            
+        }
+
+
+        .thirdcol
+        {
+            display: grid;
+            grid-template-rows: 4fr 3fr 3fr;
+            gap: 20px;
+            
+        }
+        .bd
+        {
+            border: 2px solid;
+        }
+
+        .thirdcol .london
+        {
+        
+            border-radius: 10px;
+            background: yellow;
+            /* height: 165px; */
+            border: 2px solid;
+            
+        }
+        .thirdcol .usa
+        {
+        
+            border-radius: 10px;
+            background: yellow;
+            /* height: 165px; */
+            border: 2px solid;
+            
+        }
+        
+        .thirdcol .view
+        {
+        
+            border-radius: 10px;
+            background: yellow;
+            /* height: 165px; */
+            border: 2px solid;
+            
+        }
+
+
+    /* topdestinations end */
+
+    /* explore start */
+
+.explorearea
+{
+    height: 1000px;
+    background: coral;
+    display: grid;
+    grid-template-rows: 1fr 1fr 4fr 4fr;
+    border: 1px solid;
+    padding: 20px;
+    
+    
+}
+
+.explorearea .explore
+{
+    border: 1px solid;
+    text-align: center;
+    /* line-height: 50px; */
+    padding: 20px;
+    /* line-height: 20px; */
+    position: relative;
+}
+.explore .hot
+{
+    
+    
+    background: cornflowerblue;
+    
+    font-size: 25px;
+
+
+}
+
+.explore .lines33
+{
+    height: 1px;
+    width: 150px;
+    background: blue;
+    /* padding: 20px; */
+    position: absolute;
+    top: 70px;
+    left: 535px;
+
+}

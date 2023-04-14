@@ -4,179 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>travel</title>
-    <style>
-        *{box-sizing: border-box;margin: 0;padding: 0;}
-
-        .headerarea
-        {
-            height: 680px;
-            background: url(image/bg.png);
-            background-size: 100% 100%;
-            /* background-size: cover; */
-            /* background-attachment: fixed; */
-            background-repeat: no-repeat;
-            border: 2px solid;
-            display: grid;
-            grid-template-rows: 0.5fr 1.5fr 8fr;
-        }
-        .bo
-        {
-            border: 1px solid red;
-        }
-        .header-top
-        {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-        .header-left
-        {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-
-
-
-
-
-
-        /* goveyoud start */
-
-        .go
-        {
-            height: 380px;
-            background: rosybrown;
-            border: 2px solid;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            gap: 20px;
-            padding: 20px;
-            font-family: sans-serif;
-        }
-        .go .beyound
-        {
-            padding: 90px 40px;
-            
-        }
-        .pd
-        {
-            padding: 10px 0;
-        }
-        .beyound .line
-        {
-            height: 1px;
-            width: 140px;
-            background: blue;
-        }
+    <link rel="stylesheet" href="css/style.css">
+    
         
-        .go .airline
-        {
-            background: chocolate;
-            /* height: 340px;    */
-            /* width: 290px; */
-            position: relative;
-            border-radius: 10px;
-            overflow: hidden;
-            scale: 1;
-            z-index: 0;
-        }
-        .airline .airline1
-        {
-            height: 340px;
-            width: 290px;
-            background: rgba(0, 0, 0, 0.30);
-            position: absolute;
-            top: 340px;
-            left: 0;
-            /* border-radius: 10px; */
-            transition: 1s;
-        }
-        .image
-        {
-            scale: 1;
-            transition: 1s;
+          
 
-        }
-        .airline:hover .airline1
-        {
-            top: 240px;
-            
-        }
-        .airline:hover .image
-        {
-            scale: 1.2;
-        }
-        .textinfo
-        {
-            height: 50px;
-            width: 160px;
-            position: absolute;
-            top: 270px;
-            left: 70px;
-            z-index: 1;
-            font-size: 20px;
-            color: white;
-            text-align: center;
-        
-        }
-        .airline:hover .textinfo
-        {
-            font-weight: bold;
-        }
-        
-
-        /* goveyoud end */
-
-        /* top destination start */
-
-        .topdestinationarea
-        {
-            height: 800px;
-            background: blue;
-            display: grid;
-            grid-template-rows: 0.5fr 0.5fr 9fr;
-            
-
-        }
-        .destination
-        {
-            /* padding: 20px 20px; */
-            text-align: center;
-        }
-        .line1
-        {
-            height: 1px;
-            width: 100px;
-            /* background: orange; */
-            border: 1px solid black;
-        }
-        .destination
-        {
-            display: grid;
-            grid-template-columns: 5.5fr 1.5fr 1.5fr 1.5fr;
-            gap: 20px;
-            padding: 20px;
-            
-            
-        }
-        /* .destination .uptp50
-        {
-            height: 660px;
-            border-radius: 10px;
-            scale: 1;    
-
-        }
-        .img1
-        {
-            scale: 1;
-        }
-        .uptop50:hover .img1
-        {
-            scale: 1.2;
-        } */
+    
 
 
 
-    </style>
+    
 
 </head>
 <body>
@@ -267,27 +104,100 @@
             <!-- <div class="line1"></div> -->
         </div>
 
-        <div class="destination bo">
+        <div class="destinationline bo">
             <div class="line1"></div>
         </div>
 
-        <div class="destination bo">
+        <div class="destination3 bo">
             <div class="uptp50 bo">
-                <!-- <div class="iamge50"> -->
-                    <img class="img1" src="image/big-img.png" alt="" height="100%" width="100%">
-                <!-- </div> -->
+                <div class="image">
+                    <img src="image/big-img.png" alt="" height="100%" width="100%">
+                </div>
+                
+                
+            
             </div>
 
-            <div class="firstcol bo">xcv</div>
+            <div class="firstcol bo">
+                <div class="china">
+                    <div class="destinationimages">
+                        <img src="image/destination1.png" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="darjiling bd">
+                    <div class="destinationimages">
+                        <img src="image/destination2.png" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="malaysia bd">
+                    <div class="destinationimages">
+                        <img src="image/destination3.png" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
 
-            <div class="secondcol bo">sddfl</div>
+            <div class="secondcol bo">
 
-            <div class="thirdcall bo">sdaf</div>
+                <div class="gangtok bd">
+                    <div class="destinationimages">
+                        <img src="image/destination4.png" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+
+                <div class="thailand bd">
+                    <div class="destinationimages">
+                        <img src="image/destination5.png" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+
+                <div class="australia bd">
+                    <div class="destinationimages">
+                        <img src="image/destination6.png" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="thirdcol bo">
+
+                <!-- <div class="london bd">
+                    <div class="destinationimages">
+                        <img src="image/destination7.png" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+
+                <div class="usa bd">
+                    <div class="destinationimages">
+                        <img src="image/destination8.png" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+
+                <div class="view bd">
+                    <div class="destinationimages">
+                        <img src="image/destination6.png" alt="" height="100%" width="100%">
+                    </div>
+                </div> -->
+            </div>
             
             
         </div>
 
     </div>
+
+    <!-- topdestinations end -->
+
+    <!-- explore start -->
+    
+    <div class="explorearea">
+        <div class="explore">
+            <div class="hot">Explore our hot deals</div>
+            <div class="lines33"></div>
+
+        </div>
+        <div class="ghg">ty</div>
+        <div class="ghg">rty</div>
+        <div class="ghg">fghj</div>
+    </div>
+
    
 </body>
 </html>
